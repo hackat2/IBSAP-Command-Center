@@ -147,7 +147,7 @@ vision_model = YOLO('yolov8n.pt')
 # NEVER hardcode the key. Set it in your environment before running, e.g.:
 #   export GEMINI_API_KEY="your-new-key-here"
 # or put it in a .env file (loaded with python-dotenv) that's in .gitignore.
-ai_client = genai.Client(api_key="AQ.Ab8RN6KDSfMmYcaTA_qcFE9LweS_-sd9x-A-N5CXL5q1u6JDpg")
+ai_client = genai.Client(api_key="your gemini key")
 GEMINI_MODEL = "gemini-3.6-flash"
 
 class ChatRequest(BaseModel):
